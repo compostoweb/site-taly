@@ -175,7 +175,7 @@ const Footer = () => {
 
             {/* Credentials */}
             <div className="flex flex-col items-center md:items-end gap-3 text-center md:text-right">
-              <p className="text-lg font-medium">CRP: 05/41542</p>
+              <p className="text-lg font-medium">Talitha May Braga <br></br>CRP: 05/41542</p>
               <p className="text-white/90">Graduação em Psicologia</p>
               <p className="text-white/90">Pós-graduação em Psicanálise e Filosofia</p>
               <p className="text-white/90 mt-2">

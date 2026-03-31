@@ -130,13 +130,13 @@ const HomePage = () => {
 
             {/* Content */}
             <div className="w-full md:w-7/12 lg:w-3/5">
-              <div className="space-y-2 text-xl text-center md:text-2xl font-serif italic text-brand-primary/80 leading-relaxed mb-8">
+              <div className="space-y-2 text-xl text-center md:text-2xl font-serif text-brand-primary/80 leading-relaxed mb-8">
                 <p>As coisas mudam</p>
                 <p>A vida avança</p>
                 <p>E às vezes tudo fica confuso</p>
               </div>
 
-              <div className="space-y-5 text-base md:text-lg text-gray-700 leading-relaxed">
+              <div className="space-y-5 text-base md:text-lg text-brand-primary/80 leading-relaxed">
                 <p>
                   Se você recebeu um sacode ou sente que precisa de um, está no lugar certo. Aqui há afeto, atenção e compreensão. Porque, às vezes, para chegar onde queremos, precisamos de alguém que nos ajude a olhar a estrada por outros ângulos.
                 </p>
