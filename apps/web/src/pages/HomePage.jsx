@@ -130,7 +130,7 @@ const HomePage = () => {
 
             {/* Content */}
             <div className="w-full md:w-7/12 lg:w-3/5">
-              <div className="space-y-2 text-xl md:text-2xl font-serif italic text-brand-primary/80 leading-relaxed mb-8">
+              <div className="space-y-2 text-xl text-center md:text-2xl font-serif italic text-brand-primary/80 leading-relaxed mb-8">
                 <p>As coisas mudam</p>
                 <p>A vida avança</p>
                 <p>E às vezes tudo fica confuso</p>
