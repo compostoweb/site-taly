@@ -86,7 +86,8 @@ const HomePage = () => {
       {/* Hero Section — Logo sobre fundo roxo, igual ao original */}
       <section
         id="hero"
-        className="flex flex-col items-center justify-center bg-brand-primary px-4 sm:px-6 lg:px-8 py-5"
+        className="flex flex-col items-center justify-center bg-brand-primary px-4 sm:px-6 lg:px-8 py-5 shadow-[0_6px_24px_rgba(107,76,122,0.35)]"
+        style={{ position: 'relative', zIndex: 1 }}
       >
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -101,11 +102,29 @@ const HomePage = () => {
           />
         </motion.div>
       </section>
+      {/* Faixa de separação */}
+      <div className="w-full h-[2px] bg-brand-secondary/40" />
+         {/* Title Section before about */}
+      <section
+        id="title-text"
+        className="py-10 pb-10"
+      >
+        <div className="max-w-7xl mx-auto flex flex-col items-center">
+          <h2 className="text-3xl font-serif text-center text-brand-primary leading-tight">
+            Estou aqui para te acolher, te escutar e pensar com você!
+          </h2>
+          <div className="mt-4 flex items-center gap-3">
+            <div className="w-10 h-px bg-brand-primary/40" />
+            <div className="w-2 h-2 rounded-full bg-brand-primary/60" />
+            <div className="w-10 h-px bg-brand-primary/40" />
+          </div>
+        </div>
+      </section>
 
       {/* About Section */}
       <section
         id="sobre"
-        className="py-20 md:py-28 bg-brand-background px-4 sm:px-6 lg:px-8 scroll-mt-20"
+        className="py-0 mb-20 md:py-10 bg-brand-background px-4 sm:px-6 lg:px-8 scroll-mt-20"
       >
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -246,7 +265,7 @@ const HomePage = () => {
                   <h3 className="text-2xl font-serif font-bold text-brand-primary mb-4">
                     {demand.title}
                   </h3>
-                  <div className="text-gray-600 leading-relaxed mb-8 flex-grow space-y-3">
+                  <div className="text-brand-primary/80 leading-relaxed mb-8 flex-grow space-y-3">
                     <p>{demand.description1}</p>
                     {demand.description2 && <p>{demand.description2}</p>}
                     {demand.description3 && <p>{demand.description3}</p>}
